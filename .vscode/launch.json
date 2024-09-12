@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Live server",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://209.105.227.87:8080/ASL",
+            "serverInstance": "ASL",
+            "authentication": "UserPassword",
+            "startupObjectId": 27,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "port": 7049,
+            "schemaUpdateMode": "ForceSync"
+        }
+    ]
+}
